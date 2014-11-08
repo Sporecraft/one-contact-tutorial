@@ -1,0 +1,17 @@
+<aura:component>
+    <aura:attribute name="save" type="Object"/>
+    <aura:attribute name="value" type="Contact"
+                    default="{ 'sobjectType': 'Contact' }"/>
+    
+    <!-- UI components -->
+    <ccmt:inputLookupAccount label="Account" value="{!v.value.AccountId}"/>
+    <ui:inputText label="First Name" value="{!v.value.FirstName}"/>
+    <ui:inputText label="Last Name" value="{!v.value.LastName}"/>
+    <ui:inputPhone label="Phone" value="{!v.value.Phone}"/>
+    <ui:inputEmail label="Email" value="{!v.value.Email}"/>
+    <div>
+        <label>Contact ID</label>
+        <span><a href="{!'/' + v.value.Id}" target="_blank">{!v.value.Id}</a></span>
+    </div>
+    <ui:button label="Save" press="{!v.save}"/>
+</aura:component>
