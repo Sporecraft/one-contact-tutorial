@@ -11,7 +11,7 @@
     <ui:inputEmail label="Email" value="{!v.value.Email}"/>
     <div>
         <label>Contact ID</label>
-        <span><a href="{!'/' + v.value.Id}" target="_blank">{!v.value.Id}</a></span>
+        <span><a href="{!'https://ccmt-dev-ed.my.salesforce.com/' + v.value.Id}" target="_blank">{!v.value.Id}</a></span>
     </div>
     <ui:button label="Save" press="{!v.save}"/>
 </aura:component>
