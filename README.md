@@ -1,6 +1,8 @@
 oneContact.app demo
 ===================
 
+[![oneContact.app demo video](http://img.youtube.com/vi/2dVeJ_C4dW4/0.jpg)](http://www.youtube.com/watch?v=2dVeJ_C4dW4)
+
 Demonstration of the following Lightning capabilities:
 
 * How to set Lookup or Master-Detail values using a custom input component
